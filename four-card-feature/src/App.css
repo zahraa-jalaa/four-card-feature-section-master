@@ -1,0 +1,33 @@
+/* scaling font size. */
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+/* re-setting font-size to rem + font-size reset for headers. */
+* {
+  font-size: 1rem;
+}
+body {
+  /* background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh; */
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+.main-content {
+  max-width: 70rem;
+}
+.card-body{
+  height: 14rem;
+  max-width: 20rem;
+}
+.card-icon {
+  position: absolute;
+  bottom:18px;
+  right: 25px;
+}
